@@ -1,7 +1,7 @@
 //******************************************************************************
-// Gera SIZE vetores aleatórios com dimensao L como 
+// Generates SIZE random vectors with dimension L as 
 // ((1-eps)v0 + eps v)/|(1-eps)v0 + eps v| -> v 
-// eps=0 -> v=v0  eps=1 -> v aleatorio
+// eps=0 -> v=v0  eps=1 -> v random
 //******************************************************************************
 void gera_config (gsl_vector * v0, 
 		  gsl_matrix * M, 
@@ -34,7 +34,7 @@ void gera_config (gsl_vector * v0,
 
 
 //******************************************************************************
-// Hamiltoneana
+// Hamiltonean
 //******************************************************************************
 double hamiltoneana( gsl_matrix * sociedade, gsl_matrix * issue, 
 		     int N, int L, int P, double DELTA, 
@@ -84,7 +84,7 @@ double hamiltoneana( gsl_matrix * sociedade, gsl_matrix * issue,
 }
 
 //******************************************************************************
-// Gera vetor aleatorio normalizado
+// Generates random normalized vector
 //******************************************************************************
 void gera_vetor(gsl_vector * v, int L,gsl_rng * r)
 {
@@ -101,7 +101,7 @@ void gera_vetor(gsl_vector * v, int L,gsl_rng * r)
 
 
 //******************************************************************************
-// Calcula variação de energia ao substituirmos v0 por v1 no sitio inow
+// Calculates energy change when v0 is replaced by v1 at site inow
 //******************************************************************************
 double variacaoE (gsl_vector * v0, gsl_vector * v1, int inow, 
 		  gsl_matrix * sociedade, gsl_matrix * issue, 
@@ -148,7 +148,7 @@ double variacaoE (gsl_vector * v0, gsl_vector * v1, int inow,
 }
 
 //******************************************************************************
-//  Verifica se histograma é flat no intervalo [E1,E2]
+//  Verifies if a histogram is flat in an interval [E1,E2]
 //******************************************************************************
 int flatness(gsl_histogram * H, double E1, double E2, double TOL, 
 	     int itera, double &meanhist, double &hvalue)
@@ -183,7 +183,7 @@ int flatness(gsl_histogram * H, double E1, double E2, double TOL,
 
 
 //******************************************************************************
-//Encontra menor valor Ex tal que [Ex,E2] 
+//Finds the smallest Ex such that [Ex,E2] 
 //******************************************************************************
 double flatwindow(gsl_histogram * H, double EW, double TOL,double &meanhist)
 {
