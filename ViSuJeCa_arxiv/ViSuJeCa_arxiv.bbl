@@ -1,0 +1,312 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{32}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Galam}(2012)}]{GalamBook}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Galam}},\ }\href@noop {} {\emph {\bibinfo {title} {Sociophysics: A
+  Physicist's Modeling of Psycho-political Phenomena}}}\ (\bibinfo  {publisher}
+  {Springer},\ \bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galam}(2008)}]{Galam}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Galam}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Int J
+  Mod Phys C}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {409}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Castellano}\ \emph {et~al.}(2009)\citenamefont
+  {Castellano}, \citenamefont {Fortunato},\ and\ \citenamefont
+  {Loreto}}]{Castellano}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Castellano}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Fortunato}}, \ and\ \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Loreto}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Rev
+  Mod Phys}\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo {pages} {591}
+  (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Borghesi}\ and\ \citenamefont
+  {Bouchaud}(2007)}]{Bouchaud}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Borghesi}}\ and\ \bibinfo {author} {\bibfnamefont {J.-P.}\ \bibnamefont
+  {Bouchaud}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Quanl Quat}\ }\textbf {\bibinfo {volume} {41}},\ \bibinfo {pages} {557}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chatterjee}\ \emph {et~al.}(2013)\citenamefont
+  {Chatterjee}, \citenamefont {Mitrovi\'c},\ and\ \citenamefont
+  {Fortunato}}]{Fortunato}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Chatterjee}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Mitrovi\'c}}, \ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Fortunato}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Scientific Reports}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages}
+  {1049} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galam}(2007)}]{GalamQQ}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Galam}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Quanl
+  Quat}\ }\textbf {\bibinfo {volume} {41}},\ \bibinfo {pages} {579} (\bibinfo
+  {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Caticha}\ and\ \citenamefont
+  {Vicente}(2011)}]{Cavi10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Caticha}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Vicente}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Advances in Complex Systems}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo
+  {pages} {711} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Engel}\ and\ \citenamefont {van~den
+  Broeck}(2001)}]{Engel}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Engel}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {van~den
+  Broeck}},\ }\href@noop {} {\emph {\bibinfo {title} {Statistical Mechanics of
+  Learning}}}\ (\bibinfo  {publisher} {Cambridge University Press},\ \bibinfo
+  {year} {2001})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Spears}\ \emph {et~al.}(1990)\citenamefont {Spears},
+  \citenamefont {Lea},\ and\ \citenamefont {Lee}}]{Spears}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Spears}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Lea}}, \ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Lee}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Brit J Soc Psychol}\ }\textbf
+  {\bibinfo {volume} {29}},\ \bibinfo {pages} {121} (\bibinfo {year}
+  {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Haidt}(2007)}]{Haidt1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Haidt}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {316}},\ \bibinfo {pages} {998}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Metzler}\ \emph {et~al.}(2000)\citenamefont
+  {Metzler}, \citenamefont {Kinzel},\ and\ \citenamefont
+  {Kanter}}]{Metzler00interactingneuralPRE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Metzler}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Kinzel}}, \
+  and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Kanter}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys Rev E}\
+  }\textbf {\bibinfo {volume} {62}},\ \bibinfo {pages} {2555} (\bibinfo {year}
+  {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vicente}\ \emph {et~al.}(2009)\citenamefont
+  {Vicente}, \citenamefont {Martins},\ and\ \citenamefont {Caticha}}]{Vicente}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Vicente}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Martins}}, \
+  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Caticha}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J Stat
+  Mech-Theory}\ ,\ \bibinfo {pages} {P03015}} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Klucharev}\ \emph {et~al.}(2009)\citenamefont
+  {Klucharev}, \citenamefont {Hytonen}, \citenamefont {Rijpkema}, \citenamefont
+  {Smidts},\ and\ \citenamefont {Fernandez}}]{Klucharev}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Klucharev}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Hytonen}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Rijpkema}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Smidts}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Fernandez}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Neuron}\ }\textbf {\bibinfo {volume} {61}},\
+  \bibinfo {pages} {140} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Amodio}\ \emph {et~al.}(2007)\citenamefont {Amodio},
+  \citenamefont {Jost}, \citenamefont {Master},\ and\ \citenamefont
+  {Yee}}]{Amodio}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
+  {Amodio}}, \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont {Jost}},
+  \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont {Master}}, \ and\
+  \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont {Yee}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Nature Neuroscience}\ }\textbf
+  {\bibinfo {volume} {10}},\ \bibinfo {pages} {1246} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Haidt}\ and\ \citenamefont {Joseph}(2004)}]{Haidt04}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Haidt}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Joseph}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Daedalus}\ ,\
+  \bibinfo {pages} {55}} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Haidt}\ \emph {et~al.}(1993)\citenamefont {Haidt},
+  \citenamefont {Koller},\ and\ \citenamefont {Dias}}]{Haidt4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Haidt}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Koller}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Dias}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Personality and
+  Social Psychology}\ }\textbf {\bibinfo {volume} {65}},\ \bibinfo {pages}
+  {613} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Haidt}(2001)}]{Haidt2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Haidt}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Psychological Review}\ }\textbf {\bibinfo {volume} {108}},\ \bibinfo {pages}
+  {814} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Haidt}\ and\ \citenamefont {Graham}(2007)}]{Haidt07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Haidt}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Graham}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Social Justice
+  Research}\ }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages} {98}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Haidt}\ and\ \citenamefont {Graham}(2009)}]{Haidt3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Haidt}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Graham}},\
+  }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Social and Psychological
+  Bases of Ideology and System Justification}}},\ \bibinfo {editor} {edited by\
+  \bibinfo {editor} {\bibfnamefont {J.}~\bibnamefont {Jost}}, \bibinfo {editor}
+  {\bibfnamefont {A.}~\bibnamefont {Kay}}, \ and\ \bibinfo {editor}
+  {\bibfnamefont {H.}~\bibnamefont {Thorisdottir}}}\ (\bibinfo  {publisher}
+  {Oxford University Press},\ \bibinfo {year} {2009})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kohlberg}(1984)}]{Kohlberg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Kohlberg}},\ }\href@noop {} {\emph {\bibinfo {title} {Moral Stages: A
+  Current Formulation and a Response to Critics}}}\ (\bibinfo  {publisher} {S
+  Karger Pub},\ \bibinfo {year} {1984})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gilligan}(1982)}]{Gilligan}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Gilligan}},\ }\href@noop {} {\emph {\bibinfo {title} {In A Different Voice:
+  Psychological Theory and Women's Development}}}\ (\bibinfo  {publisher}
+  {Harvard University Press},\ \bibinfo {year} {1982})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Graham}\ \emph {et~al.}(2009)\citenamefont {Graham},
+  \citenamefont {Haidt},\ and\ \citenamefont {Nosek}}]{Graham}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Graham}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Haidt}}, \
+  and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Nosek}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J Pers Soc
+  Psychol}\ }\textbf {\bibinfo {volume} {96}},\ \bibinfo {pages} {1029}
+  (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{Note1()}]{Note1}%
+  \BibitemOpen
+  \bibinfo {note} {Raw data can be requested to Haidt's team at \protect \href
+  {http://www.yourmorals.org/}{http://www.yourmorals.org/}. Preprocessed data
+  and source codes can be downloaded at \protect \href
+  {https://github.com/renatovicente/statmech_mft.git
+  }{https://github.com/renatovicente/statmech\protect \_mft.git.}}\BibitemShut
+  {Stop}%
+\bibitem [{\citenamefont {Tsafrir}\ \emph {et~al.}(2005)\citenamefont
+  {Tsafrir}, \citenamefont {Tsafrir}, \citenamefont {Ein-Dor}, \citenamefont
+  {Zuk}, \citenamefont {Notterman},\ and\ \citenamefont {Domany}}]{Domany}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Tsafrir}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Tsafrir}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Ein-Dor}}, \bibinfo
+  {author} {\bibfnamefont {O.}~\bibnamefont {Zuk}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Notterman}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Domany}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Bioinformatics}\ }\textbf {\bibinfo {volume}
+  {21}},\ \bibinfo {pages} {2301} (\bibinfo {year} {2005})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Newman}\ and\ \citenamefont
+  {Barkema}(1999)}]{Newman99}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Newman}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Barkema}},\ }\href@noop {} {\emph {\bibinfo {title} {Monte Carlo Methods in
+  Statistical Physics}}}\ (\bibinfo  {publisher} {Oxford University Press},\
+  \bibinfo {year} {1999})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Albert}\ and\ \citenamefont
+  {Barab\'asi}(2002)}]{barabasireview}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Albert}}\ and\ \bibinfo {author} {\bibfnamefont {A.-L.}\ \bibnamefont
+  {Barab\'asi}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Reviews of Modern Physics}\ }\textbf {\bibinfo {volume} {74}},\ \bibinfo
+  {pages} {47} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ and\ \citenamefont {Landau}(2001)}]{Wang01}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Wang}}\ and\ \bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont
+  {Landau}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {64}},\ \bibinfo {pages} {056101}
+  (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Traud}\ \emph
+  {et~al.}(2011{\natexlab{a}})\citenamefont {Traud}, \citenamefont {Kelsic},
+  \citenamefont {Mucha},\ and\ \citenamefont {Porter}}]{traudetal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~L.}\ \bibnamefont
+  {Traud}}, \bibinfo {author} {\bibfnamefont {E.~D.}\ \bibnamefont {Kelsic}},
+  \bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont {Mucha}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont {Porter}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {SIAM Review}\
+  }\textbf {\bibinfo {volume} {53}},\ \bibinfo {pages} {526} (\bibinfo {year}
+  {2011}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Traud}\ \emph
+  {et~al.}(2011{\natexlab{b}})\citenamefont {Traud}, \citenamefont {Mucha},\
+  and\ \citenamefont {Porter}}]{traud2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~L.}\ \bibnamefont
+  {Traud}}, \bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont {Mucha}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont {Porter}},\
+  }\href@noop {} {\enquote {\bibinfo {title} {Social structure of {Facebook}
+  networks},}\ } (\bibinfo {year} {2011}{\natexlab{b}}),\ \bibinfo {note}
+  {arXiv:1102.2166}\BibitemShut {NoStop}%
+\bibitem [{Note2()}]{Note2}%
+  \BibitemOpen
+  \bibinfo {note} {Data can be downloaded at \protect \href
+  {http://archive.org/details/oxford-2005-facebook-matrix}{http://archive.org/details/oxford-2005-facebook-matrix}}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {de~Waal}(1996)}]{DeWaal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {de~Waal}},\ }\href@noop {} {\emph {\bibinfo {title} {Good Natured}}}\
+  (\bibinfo  {publisher} {Harvard University Press},\ \bibinfo {year}
+  {1996})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Katz}(2002)}]{Katz}%
+  \BibitemOpen
+  \bibinfo {editor} {\bibfnamefont {L.}~\bibnamefont {Katz}},\ ed.,\ \href@noop
+  {} {\emph {\bibinfo {title} {Evolutionary Origins of Morality}}}\ (\bibinfo
+  {publisher} {Imprint Academic},\ \bibinfo {year} {2002})\BibitemShut
+  {NoStop}%
+\end{thebibliography}%
