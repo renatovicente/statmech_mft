@@ -1,0 +1,231 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+
+from pylab import *
+import matplotlib.font_manager as fm
+import matplotlib.gridspec as gridspec
+prop=fm.FontProperties(size=16)
+
+#***********************************************************************
+params = {'backend': 'ps',
+          'axes.labelsize': 24,
+          'text.fontsize': 16,
+          'legend.fontsize': 16,
+          'xtick.labelsize': 22,
+          'ytick.labelsize': 22,
+          'text.usetex': True,
+          }
+rcParams.update(params)
+
+#***********************************************************************
+
+
+fig = figure(figsize=(20,6))
+
+gs1 = gridspec.GridSpec(10,12)
+gs1.update(hspace=0.1,wspace=0.43,top=0.93,bottom=0.13,right=0.99,left=0.08)
+
+ax1 = subplot(gs1[0:4,0:2])
+name='norm_BINS200_mZ_pa1'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax1.plot(x,y,'-', label='Dados', linewidth=2, color='black')
+
+name='mhist_beta80_d8_M110_L800'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax1.plot(x,y,'-', label=u'Simulação BA $m=11$', linewidth=1, color='red')
+
+#name='mhist_beta80_d1_RP0_otgP1_L20_D5_T50000_run00'
+name='mhist_beta198_d6_RP0_otgP1_L20_D5_T20000_run00'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax1.plot(x,y,'--', label=u'Simulação Facebook', linewidth=2, color='green')
+
+#leg=ax1.legend(loc='upper left', prop=prop)
+#leg.draw_frame(0)
+
+ax1.text(0.55,5,r'p.a. 1',fontsize=20,backgroundcolor='w')
+#ax1.set_ylabel(r'Densidade de probabilidade $p(h)$', size = '12')
+ax1.set_ylabel(r'$H(h)$', size = '30')
+ax1.set_xlim((0.5,1.05))
+
+
+ax2 = subplot(gs1[0:4,2:4])
+name='norm_BINS200_mZ_pa2'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax2.plot(x,y,'-', label='Dados', linewidth=2, color='black')
+
+name='mhist_beta80_d11_M110_L800'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax2.plot(x,y,'-', label=u'Simulação BA $m=11$', linewidth=1, color='red')
+
+#name='mhist_beta80_d4_RP0_otgP1_L20_D5_T50000_run00'
+#name='mhist_beta18_d10_RP0_otgP1_L20_D5_T20000_run00'
+name='mhist_beta198_d9_RP0_otgP1_L20_D5_T20000_run00'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax2.plot(x,y,'--', label=u'Simulação Facebook', linewidth=2, color='green')
+
+#leg=ax2.legend(loc='upper left', prop=prop)
+#leg.draw_frame(0)
+ax2.text(0.55,(5./6)*7,r'p.a. 2',fontsize=20,backgroundcolor='w')
+ax2.set_xlim((0.5,1.05))
+
+ax3 = subplot(gs1[0:4,4:6])
+name='norm_BINS200_mZ_pa3'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax3.plot(x,y,'-', label='Dados', linewidth=2, color='black')
+
+name='mhist_beta80_d15_M110_L800'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax3.plot(x,y,'-', label=u'Simulação BA $m=11$', linewidth=1, color='red')
+
+#name='mhist_beta80_d4_RP0_otgP1_L20_D5_T50000_run00'
+#name='mhist_beta18_d13_RP0_otgP1_L20_D5_T20000_run00'
+name='mhist_beta198_d12_RP0_otgP1_L20_D5_T20000_run00'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax3.plot(x,y,'--', label=u'Simulação Facebook', linewidth=2, color='green')
+
+#leg=ax3.legend(loc='upper left', prop=prop)
+#leg.draw_frame(0)
+
+ax3.text(0.55,7.5,r'p.a. 3',fontsize=20,backgroundcolor='w')
+ax3.set_xlim((0.5,1.05))
+
+#savefig('pa3all.png')
+#fig.clear()
+
+ax4 = subplot(gs1[5:10,0:2])
+name='norm_BINS200_mZ_pa4'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax4.plot(x,y,'-', label='Dados', linewidth=2, color='black')
+
+name='mhist_beta80_d23_M110_L800'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax4.plot(x,y,'-', label=u'Simulação BA $m=11$', linewidth=1, color='red')
+
+#name='mhist_beta18_d23_RP0_otgP1_L20_D5_T20000_run00'
+#name='mhist_beta80_d5_RP0_otgP1_L20_D5_T50000_run00'
+name='mhist_beta198_d20_RP0_otgP1_L20_D5_T20000_run00'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax4.plot(x,y,'--', label=u'Simulação Facebook', linewidth=2, color='green')
+
+#leg=ax4.legend(loc='upper left', prop=prop)
+#leg.draw_frame(0)
+
+#ax3.set_xlabel(r'Prod. interno entre agentes e assunto ($h$)', size = '12')
+ax4.text(0.55,10,r'p.a. 4',fontsize=20,backgroundcolor='w')
+ax4.set_ylabel(r'$H(h)$', size = '30')
+ax4.set_xlim((0.5,1.05))
+
+
+#savefig('pa4all.png')
+#fig.clear()
+
+ax5 = subplot(gs1[5:10,2:4])
+name='norm_BINS200_mZ_pa5'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax5.plot(x,y,'-', label='Dados', linewidth=2, color='black')
+
+name='mhist_beta80_d47_M110_L800'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax5.plot(x,y,'-', label=u'Simulação BA $m=11$', linewidth=1, color='red')
+
+#name='mhist_beta80_d11_RP0_otgP1_L20_D5_T50000_run00'
+#name='mhist_beta18_d46_RP0_otgP1_L20_D5_T20000_run00'
+name='mhist_beta198_d39_RP0_otgP1_L20_D5_T20000_run00'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax5.plot(x,y,'--', label=u'Simulação Facebook', linewidth=2, color='green')
+
+#leg=ax.legend(loc='upper left', prop=prop)
+#leg.draw_frame(0)
+ax5.text(0.55,20.8333333,r'p.a. 5',fontsize=20,backgroundcolor='w')
+ax5.set_xlabel(r'$h$', size = '34')
+
+ax5.set_xlim((0.5,1.05))
+
+#savefig('pa5all.png')
+#fig.clear()
+
+ax6 = subplot(gs1[5:10,4:6])
+name='norm_BINS200_mZ_pa6'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax6.plot(x,y,'-', label='Dados', linewidth=2, color='black')
+
+name='mhist_beta80_d91_M110_L800'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax6.plot(x,y,'-', label=u'Simulação BA $m=11$', linewidth=1, color='red')
+
+#name='mhist_beta80_d21_RP0_otgP1_L20_D5_T50000_run00'
+#name='mhist_beta18_d71_RP0_otgP1_L20_D5_T20000_run00'
+name='mhist_beta198_d70_RP0_otgP1_L20_D5_T20000_run00'
+data = loadtxt(name+'.dat')
+x = data[:,0]
+y = data[:,2]
+ax6.plot(x,y,'--', label=u'Simulação Facebook', linewidth=2, color='green')
+
+#leg=ax.legend(loc='upper left', prop=prop)
+#leg.draw_frame(0)
+#ax6.set_xlabel(r'Prod. interno entre agentes e assunto ($h$)', size = '12')
+ax6.text(0.55,29.166666667,r'p.a. 6',fontsize=20,backgroundcolor='w')
+ax6.set_xlim((0.5,1.05))
+
+
+ax = subplot(gs1[:,7:11])
+name='pavsdelta'
+data = loadtxt(name+'.dat')
+pa = data[:,0]
+deltaBA = data[:,1]
+deltaFB = data[:,2]
+ax.plot(pa,deltaBA,'-o', label='BA', linewidth=1., color='red')
+ax.plot(pa,deltaFB,'--^', label='FB', linewidth=2, color='green', markeredgewidth=0)
+ax.set_xlim(0,7)
+ax.set_ylabel(r'$\delta$', size = '36')
+ax.set_xlabel(r'p.a.', size = '36')
+
+leg=ax.legend(loc='upper left', prop=prop)
+leg.draw_frame(0)
+
+#show()
+#savefig('paallBETA198.png')
+savefig('paallBETA198.eps')
+
+
+
+
+
+
+

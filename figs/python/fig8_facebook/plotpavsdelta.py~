@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+from pylab import *
+import matplotlib.font_manager as fm
+prop=fm.FontProperties(size=12)
+
+fig = figure()
+
+ax = fig.add_subplot(1,1,1) 
+name='pavsdelta.dat'
+data = loadtxt(name+'.dat')
+pa = data[:,0]
+deltaBA = data[:,1]
+deltaFB = data[:,2]
+ax1.plot(x,deltaBA,'-', label='Dados', linewidth=2, color='black')
+
+savefig('pavsdelta.eps')
+
+
+
+
+
+
